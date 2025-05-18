@@ -4,31 +4,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
+    <title>Signup</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <section class="login-page">
-        <div class="welcome">
-            <h1>Welcome</h1>
-        </div>
-        <div class="login">
+        <div class="singup">
             <div class="login-card">
-                <h4>Login</h4>
-                <input type="text" id="uesrname" placeholder="Enter your Uesrname" required>
+                <h4>Singup</h4>
+                <input type="text" id="username" placeholder="Enter your Uesrname" required>
+                <input type="email" name="" id="email" placeholder="Enter your Email" required>
                 <div class="form-group">
                     <input type="password" id="password" placeholder="Enter your Password" required>
                     <p class="err" id="err"></p>
                 </div>
                 <div class="form-group">
-                    <button id="submit" onclick="submit()" class="button">LogIn</button>
-                    <a href="./singup.html">Dont have an acctount</a>
+                    <button id="submit" onclick="submit()" class="button">Singup</button>
+                    <a href="./index.html">You have an acctount</a>
                 </div>
             </div>
         </div>
     </section>
 </body>
-<script src="login.js"></script>
+<script src="singup.js"></script>
 
 </html>
